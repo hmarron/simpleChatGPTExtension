@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "postGPT",
+    "version": "0.0",
+    "description": "Free the beast",
+    "content_scripts": [
+        {
+          "js": ["scripts/content.js"],
+          "matches": [
+            "https://chat.openai.com/*"
+          ]
+        }
+    ]
+}
